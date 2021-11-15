@@ -52,9 +52,11 @@ phy0    wlan0           rt2800usb       NetGear, Inc. WNDA4100
 
 ```
 # 脚本注解
+```
 1. sniff()是嗅探器，嗅探无线网卡范围内的所有广播。
-2. __flow_separa__()是流分离器，能够分离SSID等信息。
+2. __flow_separa__()是流分离器，能够分离SSID等信息,如果在这段的恶意载荷可以直接分离。
 3. packet_Handler()是包解析器，能够在分流器的后面捕获属性和值，并且用于判恶意的值。
+```
 
 ```python
 # _*_ encoding=utf-8 _*_
