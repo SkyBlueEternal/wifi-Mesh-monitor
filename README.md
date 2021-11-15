@@ -1,10 +1,15 @@
 # wifi-Mesh-monitor(wifi 空口监控技术) 【2021.11.15】
 
 # 简介
-  拜读大佬的文章 https://mp.weixin.qq.com/s/GUab_Cz-PlEUJXNuyiVTLQ ，然后分析写的Demo。
+  拜读大佬的文章 https://mp.weixin.qq.com/s/GUab_Cz-PlEUJXNuyiVTLQ ，然后分析写的监控Demo。
+  Demo在理论上能够监控，实际效果需要打磨。
+  
 # 测试环境
+```
   系统：Kali
   无线网卡：NT-G450M
+```
+
 # 测试记录
 ```python
 # ifconfig
@@ -51,6 +56,7 @@ phy0    wlan0           rt2800usb       NetGear, Inc. WNDA4100
 # python3 main.py
 
 ```
+
 # 脚本注解
 ```
 1. sniff()是嗅探器，嗅探无线网卡范围内的所有广播。
