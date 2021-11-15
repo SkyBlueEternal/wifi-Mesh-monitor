@@ -12,7 +12,7 @@
 
 # 测试记录
 ```python
-# ifconfig
+> ifconfig
 eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
         ether 00:0c:29:a1:b7:79  txqueuelen 1000  (Ethernet)
         RX packets 2  bytes 484 (484.0 B)
@@ -36,7 +36,7 @@ wlan0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
         TX packets 0  bytes 0 (0.0 B)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
         
-# airmon-ng start wlan0
+> airmon-ng start wlan0
 
 Found 2 processes that could cause trouble.
 Kill them using 'airmon-ng check kill' before putting
@@ -53,7 +53,7 @@ phy0    wlan0           rt2800usb       NetGear, Inc. WNDA4100
                 (mac80211 monitor mode vif enabled for [phy0]wlan0 on [phy0]wlan0mon)
                 (mac80211 station mode vif disabled for [phy0]wlan0)
                 
-# python3 main.py
+> python3 main.py
 
 ```
 
