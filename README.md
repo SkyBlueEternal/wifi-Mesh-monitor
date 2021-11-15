@@ -96,7 +96,7 @@ def packet_Handler(pkt):
 
 def __flow_separa__(packet):
     # filter SSID.
-    if "info='kwai-staff'" in str(packet.show):
+    if "info='Guest'" in str(packet.show):
         return packet
     else:
         pass
